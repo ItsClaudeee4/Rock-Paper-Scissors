@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Rock - Paper - Scissors</h1>
+    <div class="rps">
+      <div class="rockDiv">
+        <img
+          id="rock"
+          class="img rock"
+          src="/rock paper scissors/Rock.jpg"
+          alt=""
+        />
+      </div>
+      <div class="paper-scissorsDiv">
+        <img
+          id="paper"
+          class="img paper"
+          src="/rock paper scissors/Paper.jpg"
+          alt=""
+        />
+        <img
+          id="scissors"
+          class="img scissors"
+          src="/rock paper scissors/scissors.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <p id="playerChoice">PLAYER:</p>
+    <p id="computerChoice">COMPUTER:</p>
+    <h2 class="" id="winLose"></h2>
+    <p id="playeScoreP">Player Score: <span id="playeScore">0</span></p>
+    <p id="computerScoreP">Computer Score: <span id="computerScore">0</span></p>
+    <button onclick="restart()" id="btn">restart</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
